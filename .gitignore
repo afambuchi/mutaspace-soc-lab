@@ -1,0 +1,63 @@
+# Secrets
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+secrets/
+credentials/
+passwords.txt
+
+# Proxmox and VM artifacts
+*.iso
+*.qcow2
+*.vmdk
+*.vdi
+*.raw
+*.ova
+*.ovf
+*.img
+*.dump
+*.vma
+*.zst
+
+# Logs and large telemetry exports
+*.log
+*.evtx
+*.pcap
+*.pcapng
+*.etl
+*.jsonl
+large-exports/
+raw-logs/
+private-logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.old
+*.swp
+
+# Dataset safety
+datasets/private/
+datasets/raw/
+phishing-nlp/private-data/
